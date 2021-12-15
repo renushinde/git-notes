@@ -14,6 +14,7 @@ Git is a version control system that helps us to track changes to a file over ti
   
 ## Backtracking(going back to history)
 
-  1. Checkout the HEAD version to discard changes to the directory. To do this use **git checkout HEAD file.extension** or **git checkout -- file.extension**
+  1. Checkout the HEAD version to discard changes to the directory.IMP:If it's not commited yet. To do this use **git checkout HEAD file.extension** or **git checkout -- file.extension**
   2. **git diff file.extension** to check the difference between a file.
   3. Remove file from the staging area. **git reset HEAD file.extension**
+  4. If the changes are commited then: Do a git log first, grab the SHA(second to the latest) and do **git reset SHA**
