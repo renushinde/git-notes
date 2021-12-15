@@ -12,3 +12,5 @@ Git is a version control system that helps us to track changes to a file over ti
   
   6. git commit -m "added-these-changes"
   
+## Backtracking(going back to history)
+
