@@ -18,3 +18,5 @@ Git is a version control system that helps us to track changes to a file over ti
   2. **git diff file.extension** to check the difference between a file.
   3. Remove file from the staging area. **git reset HEAD file.extension**
   4. If the changes are commited then: Do a git log first, grab the SHA(second to the latest) and do **git reset SHA**
+
+## Git Branching
