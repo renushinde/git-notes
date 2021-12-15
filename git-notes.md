@@ -16,4 +16,4 @@ Git is a version control system that helps us to track changes to a file over ti
 
   1. Checkout the HEAD version to discard changes to the directory. To do this use **git checkout HEAD file.extension** or **git checkout -- file.extension**
   2. **git diff file.extension** to check the difference between a file.
-  3. 
+  3. Remove file from the staging area. **git reset HEAD file.extension**
